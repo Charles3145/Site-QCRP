@@ -1,0 +1,85 @@
+
+
+@font-face {
+    font-family: "DMserif";
+    src: url(./Oswald-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: "DMserif" Verdana;
+}
+
+body{
+    background: url(./LogoMakerCa-1713665680694.png)  repeat center/cover;
+    min-height: 100vh;
+}
+
+img {
+    width: 350px; /* Définissez la largeur souhaitée */
+    height: auto; /* Assurez-vous que la hauteur est ajustée proportionnellement */
+    border: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: auto;
+}
+
+
+h3{
+    text-decoration: underline;
+    letter-spacing: 1px;
+    color: rgb(219, 80, 215);
+    text-shadow: 3px 3px 3px  purple;
+}
+
+h2{
+    
+    letter-spacing: 1px;
+    color: rgb(219, 80, 215);
+    text-shadow: 3px 3px 3px  purple;
+}
+
+textarea{
+    color: blue;
+    background-color:   rgb(219, 80, 215);;
+    border:15px 15px 15px 15px ;
+    border-radius: 15px 15px 15px 15px ;
+    color: blue;
+    text-shadow: 3px 3px 3px  purple;
+
+}
+
+button{
+    
+    color: blue;
+    border:15px 15px 15px 15px ;
+    border-radius: 15px 15px 15px 15px ;
+    background-color:   rgb(219, 80, 215);;
+    text-shadow: 3px 3px 3px  purple;
+
+
+}
+
+a{
+    
+    color: rgb(219, 80, 215);
+    text-shadow: 3px 3px 3px  purple;
+}
+
+h4{
+    text-decoration: underline;
+    letter-spacing: 4px;
+    color: rgb(219, 80, 215);
+    text-align: center;
+    size: 4rem ;
+    text-shadow: 10px 10px 10px  purple;
+}
+
+label{
+     color: rgb(219, 80, 215);
+     text-shadow: 3px 3px 3px  purple;
+}
+
+li{
+    color: rgb(219, 80, 215);
+    text-shadow: 3px 3px 3px  purple;
+    
+} 

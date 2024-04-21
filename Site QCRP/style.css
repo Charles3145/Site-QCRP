@@ -1,0 +1,73 @@
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    /*Les Tailles Des Polices Doivent Être En REM*/
+    font-size: 2.0rem;
+    text-shadow: 3px 3px 3px  purple;
+    color: pink;
+    text-decoration: underline;
+    
+}
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /*Les Tailles Des Polices Doivent Être En REM*/
+    font-size: 1.0rem;
+    color: rgb(0, 0, 0);
+    
+}
+
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /*Les Tailles Des Polices Doivent Être En REM*/
+    font-size: 1.rem;
+    color: rgb(0, 0, 0);
+    
+}
+
+body {
+   background-color: black;
+    min-height: 100vh;
+}
+
+main {
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    opacity: 100%;
+    /*Centrer Une Boite*/
+    margin: auto 0 ;
+    border: 2px solid blue;
+    border-radius: 20px 20px 20px 20px ;
+    box-shadow: 0px 0px 20px 4px;
+    padding: 15px;
+
+}
+
+.flexbox {
+    height: 250px;
+    border: 2px solid rgba(67, 205, 95, 0.883);
+    padding: 15px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 2px 4px;
+    background-color: lime;
+    border-color: aqua;
+}
+    .flexbox li{
+        list-style: none;
+        height: 55px;
+        width: 160px;
+        margin: 10px;
+        background-color: aqua;
+    }
+
+    
+    
+
+
+h2  {
+    margin: 0;
+}
+

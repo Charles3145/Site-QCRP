@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quebec Rôleplay Roblox FR</title>
+
+    <link rel="short icon" href="./telechargement_9.jpg">
+
+    <link rel="stylesheet" href="RPQC.css">
+</head>
+    <h4>Bienvenue Sur Québec Rôleplay!</h4 >
+    <ul>
+        <a href="#form">Contacter</a></li>
+
+
+        <br>
+        
+
+        <a href="#form">Les Organisations Sur Le Serveur</a></li>
+
+        <br>
+
+
+        <a href="#form">Nos Réseaux</a></li>
+       
+    </ul>
+
+
+    <br>
+
+</section>
+<section id="#form">
+    
+<body>
+    <img src="" alt="">
+
+    <br>
+
+    <h2>Tout Savoir Sur Nôtre Serveur</h2>
+
+
+</body>
+    <main>
+    </section>
+    <section id="#form">
+        <br>
+
+        <h2>Les Organisations Sur Le Serveur</h2>
+
+        <img src="" alt="">
+
+        
+        
+        
+        <ul>
+            
+            <li><h2>Policier
+                <br>
+                <img src="./Police.png" alt="">
+
+            </h2></li>
+            <li><h2>MTQ</h2></li>
+            <li><h2>Pompier</h2></li>
+
+
+
+            <br>
+
+            <img src="./Pompier.png" alt="">
+
+            <br>
+
+            <img src="./MTQ.png" alt="">
+
+            <br>
+
+            <h2>Nos Réseaux</h2>
+
+            <h3><a href="https://www.youtube.com/" target="_blank"><img src="./pngtree-youtube-pink-icon-with-transparent-background-png-image_5533398-removebg-preview.png" alt="YouTube" style="width: 80px; height: auto;"></a></h3>
+
+            <h3><a href="https://www.Tiktok.com/" target="_blank"><img src="./Tiktok12-removebg-preview.png" alt="YouTube" style="width: 90px; height: auto;"></a></h3>
+
+            <h3><a href="https://www.Tiktok.com/" target="_blank"><img src="../New pink discord avatar found in apk files r_discordapp.url" alt="YouTube" style="width: 45px; height: auto;"></a></h3>
+
+           
+
+
+
+        </ul>
+        <input type="checkbox" id="checkBox"> <!-- La checkbox -->
+        <label for="checkBox">Ajouter le texte à l'e-mail</label>
+        <br>
+        
+        <textarea id="emailContent" rows="4" cols="50" placeholder="Merci De Écrire Votre Demande Ou Problème Ici.">.</textarea> <!-- La textarea -->
+        
+        
+        <br>
+    
+      </section>
+      <section id="form">
+        
+    
+        <button onclick="addToEmail()">Ajouter à l'e-mail</button> <!-- Le bouton -->
+        
+        
+        <script>
+            function addToEmail() {
+                // Vérifier si la checkbox est cochée
+                var checkBox = document.getElementById("checkBox");
+                if (checkBox.checked) {
+                    // Récupérer l'e-mail
+                    var email = "quebecrp0@gmail.com";
+                    
+                    // Récupérer le texte à ajouter
+                    var textToAdd = document.getElementById("emailContent").value;
+                    
+                    // Concaténer le texte à ajouter à l'e-mail
+                    email += "?body=" + textToAdd;
+                    
+                    // Ouvrir un nouvel e-mail avec le texte ajouté
+                    window.location.href = "mailto:" + email;
+                }
+            }
+            
+        </script>
+    </main>
+</html>
